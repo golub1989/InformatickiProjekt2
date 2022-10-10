@@ -55,7 +55,7 @@ export default {
       headers () {
         return [
           {
-            text: 'Title',
+            text: 'Game',
             align: 'start',
             sortable: false,
             value: 'title',
@@ -64,7 +64,7 @@ export default {
             text: 'Date',
             value: 'date',
           },
-          { text: 'URL', value: 'url' },
+          { text: 'URL',sortable: false, value: 'url' },
         ]
       },
     },
