@@ -55,7 +55,7 @@ export default {
       headers () {
         return [
           {
-            text: 'Game',
+            text: '',
             align: 'start',
             sortable: false,
             value: 'title',
